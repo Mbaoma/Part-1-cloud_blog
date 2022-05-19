@@ -17,3 +17,6 @@ $ docker-compose up --build
 
 - Set up CI/CD with GitHub Actions using [this](https://docs.docker.com/language/python/configure-ci-cd/) article
 
+- Triggering the workflow
+The CI/CD pipeline is triggered by pushing new commits to the main branch of the repository.
+[DockerHub Image](https://hub.docker.com/repository/docker/mbaoma/part-1-cloud_blog_web/general)
