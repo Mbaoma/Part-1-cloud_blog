@@ -32,7 +32,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: mbaoma/part-1-cloud_blog_web 
+        image: mbaoma/part-1-cloud_blog_web
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
